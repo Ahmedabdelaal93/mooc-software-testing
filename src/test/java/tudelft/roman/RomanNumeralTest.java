@@ -30,7 +30,7 @@ public class RomanNumeralTest {
     @Test
     public void numberWithAndWithoutSubtractiveNotation() {
         RomanNumeral roman = new RomanNumeral();
-        int result = roman.convert("XLIV");
-        Assertions.assertEquals(44, result);
+        int result = roman.convert("V");
+        Assertions.assertEquals(5, result);
     }
 }
